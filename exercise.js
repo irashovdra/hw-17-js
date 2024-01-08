@@ -52,7 +52,7 @@ const musicLibrary = {
   ],
 };
 
-// Деконструризація
+// Деструктуризація
 
 const {
   count,
@@ -64,7 +64,7 @@ const {
           title: artist1AlbumTitle1,
           year: artist1AlbumTitle2,
           tracks: [
-            { title: artist1AlbumTrack1 },
+            { title: artist1Album1Track1 },
             { title: artist1Album1Track2 },
             { title: artist1Album1Track3 },
           ],
@@ -105,3 +105,29 @@ const {
     },
   ],
 } = musicLibrary;
+
+console.log(
+  count,
+  artist1Name,
+  artist1AlbumTitle1,
+  artist1AlbumTitle2,
+  artist1Album1Track1,
+  artist1Album1Track2,
+  artist1Album1Track3,
+  artist1Album2Title,
+  artist1Album2Year,
+  artist1Album2Track1,
+  artist1Album2Track2,
+  artist1Album2Track3,
+  artist2Name,
+  artist2AlbumTitle1,
+  artist2AlbumTitle2,
+  artist2Album1Track1,
+  artist2Album1Track2,
+  artist2Album1Track3,
+  artist2Album2Title,
+  artist2Album2Year,
+  artist2Album2Track1,
+  artist2Album2Track2,
+  artist2Album2Track3
+);
